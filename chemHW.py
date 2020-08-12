@@ -1,11 +1,10 @@
 import matplotlib.pyplot as plt
 
-arr = [0,5,10,15,20]
-arr1 = [21,30,38,47,57]
+arr = ['King','Sockeye','Silver','Chum','Humpback']
+arr1 = [15,8,12,15,5]
 
-plt.scatter(arr,arr1)
-plt.xlabel("Time Heated (min)")
-plt.ylabel("Temp of Oil (Celsius)")
-plt.title("Heating Time for Oil Bath")
-plt.grid()
+plt.bar(arr,arr1)
+plt.xlabel("Salmon Species")
+plt.ylabel("Average Weight (lbs)")
+plt.title("Size of pacific Salmon for 1 year")
 plt.show()
